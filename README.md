@@ -26,8 +26,8 @@ gradle build
 server.port=8080
 
 # Database Configuration
-spring.datasource.url=jdbc:mysql://localhost:3306/testdb
-spring.datasource.username=root
+spring.datasource.url=jdbc:postgresql//localhost:5432/spring demo
+spring.datasource.username=postgres
 spring.datasource.password=admin
 spring.jpa.hibernate.ddl-auto=create-drop
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
