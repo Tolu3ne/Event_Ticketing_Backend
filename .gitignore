@@ -89,3 +89,4 @@ target/
 /bin
 
 .vscode/
+src/main/resources/application.properties
