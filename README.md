@@ -9,10 +9,6 @@ Copied from my current Software Product Management [CO3013] project.
 
 ## Build the project
 - Clone the project
-- For the first build, consider changing application properties in the `src/main/resources/application.properties` file to only include:
-```properties
-spring.application.name=demo
-```
 - Run 
 ```bash
 gradle build
@@ -30,7 +26,7 @@ spring.datasource.url=jdbc:postgresql//localhost:5432/spring demo
 spring.datasource.username=postgres
 spring.datasource.password=admin
 spring.jpa.hibernate.ddl-auto=create-drop
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 ```
 
 - Make sure to set up your database (e.g., MySQL) and adjust the database configuration in `application.properties` as needed.
